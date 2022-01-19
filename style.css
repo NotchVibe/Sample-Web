@@ -1,0 +1,874 @@
+/* GOOGLE FONT IMPORTATION */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Nunito:wght@300&display=swap');
+
+
+/* NAVBAR TOUCH-UP */
+.navbar-brand img {
+    height: 8vh;
+}
+
+/* FAQs HOME */
+.faqs-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.faqs-home h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* FAQs HOME End*/
+
+/* XXXXX - HOME SECTION - XXXXX */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/Graphics/Graphical_Background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    /* background-color: rgb(219, 64, 64); */
+    height: 100vh;
+    width: 100%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 100%;
+    /* background-color: rosybrown; */
+}
+
+.home-text h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.home-text p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-1, .button-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 6vh;
+    background: linear-gradient(to right, #3E00FF, #13a2e4);
+    border-radius: 2rem;
+    margin: 0 2rem;
+    transition: all 0.6s;
+}
+
+.button-1:hover, .button-2:hover {
+    width: 11vw;
+    background: linear-gradient(black, rgb(0, 5, 46));
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.button-1 p, .button-2 p {
+    margin: auto;
+}
+
+.home-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 100%;
+    /* background-color: rgb(207, 100, 24); */
+}
+
+.home-display img {
+    height: 68vh;
+}
+
+/* XXXXX - Home Section Design Ends */
+
+
+/* XXXXX - FACILTIES SECTION - XXXXX */
+.facilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url(img/Graphics/Graphical_Background.jpg);
+    background-position: center;
+}
+
+.facilities-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+/* Container of the Facility Cards */
+.facilities-pack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    /* background-color: palevioletred; */
+}
+
+/* Fac-Box is the main Box of Facility [STARTS-HERE]*/
+.fac-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+    background: linear-gradient(25deg, #c1c1c1, #ededed);
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.fac-box-img img {
+    height: 8vh;
+    margin-bottom: 1rem;
+}
+
+.fac-box h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.fac-box p {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* Fac-Box is the main Box of Facility [ENDS-HERE]*/
+
+
+/* XXXXX - Facilties Section Ends - XXXXX*/
+
+
+/* XXXXX - TESTIMONIALS SECTION - XXXXX */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.testimonial-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+}
+
+.testimonial-head h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.testimonial-head p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.testimonial-pack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.test-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 32vw;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: radial-gradient(#00fff9, #13c7be);
+}
+
+.test-box-img img {
+    height: 8vh;
+}
+
+.test-box h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+
+}
+
+.test-box p {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+}
+
+.star img {
+    height: 15vh;
+    margin-bottom: -40px;
+    margin-top: -50px;
+}
+
+/* XXXXX - Testimonials Section Ends - XXXXX */
+
+
+/* XXXXX - DIRECTOR SECTION - XXXXX */
+.director {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+.director-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+}
+
+.director-heading h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.director-heading p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.director-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    /* background-color: darkkhaki; */
+}
+
+.director-box img {
+    height: 60vh;
+}
+
+/*  XXXXX - Director Section Ends - XXXXX */
+
+/* XXXXX - GET IN TOUCH - XXXXX */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    margin: 2rem 0;
+}
+
+.contact-head {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-head h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-display {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-display img {
+    height: 45vh;
+}
+
+/* XXXXX - Get in Touch - XXXXX */
+
+/* XXXXX - FOOTER - XXXXX */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
+
+footer span {
+    font-style: italic;
+}
+
+footer span a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+footer span a:hover {
+    color: rgb(0, 60, 255);
+    font-style: normal;
+    text-decoration: underline;
+    transition: ease-in 0.7s;
+}
+/* XXXXX - Footer Ends - XXXXX */
+
+
+
+/* + + + + + +  RESPONSIVE DESIGNING + + + + + + */
+@media screen and (max-width:990px) {
+
+    /* Bootstrap Touching */
+    .navbar-toggler-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(img/icons/menu.png);
+        background-size: 3rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #f3f3f3;
+        border-color: rgba(0, 0, 0, .1);
+    }
+
+    /* Bootstrap Touching Ends here */
+    .home-text {
+        /* background-color: pink; */
+        padding: 0 1rem;
+    }
+
+    .home-display {
+        /* background-color: coral; */
+    }
+
+    .button-1, .button-2 {
+        width: 12vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .button-2 {
+        width: 14vw;
+    }
+
+    .home-display img {
+        height: 60vh;
+    }
+
+    .facilities {
+        text-align: center;
+    }
+
+    @media screen and (min-width:768px) and (max-width: 774px) {
+        .home-display img {
+            height: 50vh;
+        }
+    }
+}
+
+/* (4) TABLET - 768PX */
+@media screen and (max-width: 768px) {
+    .home {
+        height: 110vh;
+        flex-direction: column-reverse;
+    }
+
+    .home-display {
+        width: 100%;
+        margin-top: 4.5rem;
+    }
+
+    .home-text {
+        width: 100%;
+    }
+
+    .button-1, .button-2 {
+        width: 15vw;
+    }
+
+    .button-1:hover, .button-2:hover {
+        width: 16vw;
+    }
+
+    /* }---- Facilities ---- */
+
+    .facilities {
+        /* background: red; */
+        height: 150vh;
+    }
+
+    .facilities-pack {
+        flex-direction: column;
+        height: auto;
+        /* background-color: coral;  */
+    }
+
+    .fac-box {
+        margin: 1rem 0;
+        width: 45vw;
+    }
+
+    /* --- Testimonial --- */
+    .testimonials {
+        height: 110vh;
+    }
+
+    .testimonial-pack {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .test-box {
+        width: 50vw;
+    }
+
+    /* ----- Director ----- */
+    .director {
+        height: 90vh;
+    }
+
+    .director-heading {
+        padding: 0 6rem;
+    }
+
+    /* (5) 2nd Media Query for Tablet Optimization */
+    @media screen and (max-width: 650px) {
+        .home-text {
+            padding: 0 2rem;
+        }
+
+        .home-display img {
+            height: 50vh;
+        }
+
+        .button-1, .button-2 {
+            width: 28vw;
+        }
+
+        .button-1:hover, .button-2:hover {
+            width: 22vw;
+        }
+
+        .testimonials {
+            height: 120vh;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .test-box {
+            width: 60vw;
+        }
+
+        .facilities-head {
+            padding: 0 2rem;
+        }
+
+        .fac-box {
+            width: 70vw;
+            border-radius: 1rem;
+            background: linear-gradient(50deg, rgb(219 219 219), rgb(224, 224, 224));
+        }
+
+        .director {
+            padding: 0;
+            height: 80vh;
+        }
+
+        .director-heading {
+            height: auto;
+        }
+
+        .director-box {
+            height: auto;
+        }
+
+        .director-box img {
+            height: 50vh;
+        }
+
+        .director-heading p {
+            font-size: 0.6rem;
+        }
+
+        .contact-display img {
+            height: 38vh;
+        }
+    }
+}
+
+/* TABLET VERSION DONE */
+
+/* (6) MOBILE Large - 425px  */
+@media screen and (max-width: 425px) {
+    .home {
+        height: 100vh;
+    }
+
+    .home-text h1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .home-text p {
+        font-size: 0.8rem;
+    }
+
+    .home-display img {
+        height: 40vh;
+    }
+
+    .button-1, .button-2 {
+        width: 25vw;
+    }
+
+    .button-1:hover, .button-2:hover {
+        width: 28vw;
+    }
+
+    .facilities-head p {
+        font-size: 0.8rem;
+    }
+
+    .fac-box h6 {
+        font-size: 0.9rem;
+    }
+
+    .fac-box p {
+        font-size: 0.8rem;
+    }
+
+    .testimonials {
+        height: 80vh;
+    }
+
+    .testimonial-head p {
+        font-size: 0.8rem;
+    }
+
+    .test-box {
+        width: 60vw;
+    }
+
+    .test-box p {
+        font-size: 0.8rem;
+    }
+
+    .director {
+        padding: 0;
+        height: 42vh;
+    }
+
+    .director-heading {
+        padding: 0 2rem;
+    }
+
+    .director-box img {
+        height: 26vh;
+    }
+
+    .contact {
+        height: 35vh;
+    }
+
+    .contact-display img {
+        height: 25vh;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* (7) MOBILE Large - 375px  */
+@media screen and (max-width: 375px) {
+
+    .home-text h1 {
+        font-size: 1.1rem;
+    }
+
+    .home-text p {
+        font-size: 0.7rem;
+    }
+
+    .button-1, .button-2 {
+        width: 30vw;
+        margin: 0 1rem;
+    }
+
+    .button-1 p, .button-2 p {
+        font-size: 0.9rem;
+    }
+
+    .facilities {
+        height: 120vh;
+    }
+
+    .facilities-head h1 {
+        font-size: 1.6rem;
+    }
+
+    .facilities-head p {
+        font-size: 0.7rem;
+    }
+
+    .testimonials {
+        height: 100vh;
+    }
+
+    .testimonial-head h1 {
+        font-size: 1.6rem;
+    }
+
+    .director {
+        height: 60vh;
+    }
+
+    .director-box img {
+        height: 35vh;
+    }
+
+    .contact-display img {
+        height: 30vh;
+    }
+}
+
+/* (8) MOBILE Large - 320px  */
+@media screen and (max-width: 320px) {
+    .home-text h1 {
+        font-size: 1rem;
+    }
+
+    .home-display {
+        margin-bottom: -5rem;
+    }
+
+    .facilities {
+        height: 130vh;
+    }
+
+    .testimonials {
+        height: 120vh;
+        padding: 0 1rem;
+    }
+
+    .button-1, .button-2 {
+        width: 35vw;
+        margin: 0 0.5rem;
+    }
+
+    .fac-box h6 {
+        font-size: 0.8rem;
+    }
+
+    .director-box img {
+        height: 30vh;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+}
+
+
+/* (9) MOBILE Large - 270px  */
+@media screen and (max-width: 270px) {
+    .home-text h1 {
+        font-size: 0.85rem;
+    }
+
+    .home-text p {
+        font-size: 0.7rem;
+    }
+
+    .facilities {
+        height: 125vh;
+    }
+
+    .facilities-head h1 {
+        font-size: 1.6rem;
+    }
+
+    .facilities-head p {
+        font-size: 0.6rem;
+    }
+
+    .fac-box {
+        width: 80vw;
+        padding: 0.8rem;
+    }
+
+    .testimonials {
+        height: 110vh;
+    }
+
+    .test-box {
+        width: 80vw;
+        padding: 0.5rem;
+    }
+
+    .director {
+        height: 55vh;
+    }
+
+    .director-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact {
+        height: 40vh;
+    }
+
+    .contact-display img {
+        height: 25vh;
+    }
+
+}
+
+/* (10) MOBILE Large - 220px  */
+@media screen and (max-width: 220px) {
+
+    .home-text h1 {
+        font-size: 0.65rem;
+    }
+
+    .home-text p {
+        font-size: 0.6rem;
+    }
+
+    .button-1, .button-2 {
+        width: 40vw;
+    }
+
+    .home-display img {
+        height: 30vh;
+    }
+
+    .facilities {
+        height: 120vh;
+    }
+
+    .facilities-head p {
+        font-size: 0.55rem;
+    }
+
+    .fac-box {
+        width: 82vw;
+    }
+
+    .fac-box-img img {
+        height: 5vh;
+    }
+
+    .fac-box h6 {
+        font-size: 0.7rem;
+    }
+
+    .fac-box p {
+        font-size: 0.7rem;
+    }
+
+    .testimonial-head h1 {
+        font-size: 1.5rem;
+    }
+
+    .test-box-img img {
+        height: 6vh;
+    }
+
+    .test-box h6 {
+        font-size: 0.8rem;
+    }
+
+    .test-box p {
+        font-size: 0.7rem;
+    }
+
+    .star img {
+        margin-bottom: -55px;
+        margin-top: -70px;
+    }
+
+    .director {
+        height: 46vh;
+    }
+
+    .director-heading h2 {
+        font-size: 1rem;
+    }
+
+    .director-heading p {
+        font-size: 0.5rem;
+    }
+
+    .director-box img {
+        height: 20vh;
+    }
+
+    .contact {
+        height: 28vh;
+    }
+
+    .contact h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .contact-display img {
+        height: 20vh;
+    }
+
+    footer {
+        font-size: 0.5rem;
+    }
+}
